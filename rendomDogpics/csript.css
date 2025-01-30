@@ -1,5 +1,4 @@
-/* General reset */
-body {
+/* body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -9,27 +8,27 @@ body {
     align-items: center;
     height: 100vh;
     color: #333;
-}
+} */
 
 /* Container styling */
-.container {
+/* .container {
     text-align: center;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 300px;
-}
+} */
 
 /* Heading */
-h1 {
+/* h1 {
     font-size: 24px;
     margin-bottom: 20px;
     color: #444;
-}
+} */
 
 /* Image styling */
-img {
+/* img {
     width: 100%;
     max-width: 250px;
     height: auto;
@@ -37,10 +36,10 @@ img {
     margin-bottom: 20px;
     border: 2px solid #ddd;
     background-color: #f9f9f9;
-}
+} */
 
 /* Button styling */
-button {
+/* button {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
@@ -53,4 +52,53 @@ button {
 
 button:hover {
     background-color: #0056b3;
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+h4 {
+    color: red;
+    margin-top: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0
+}
+
+
